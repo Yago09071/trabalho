@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>Atividade 2</title>
+</head>
+<body>
+    <script src="./script.js"></script>
+    <header>
+        <ul class="menu">
+            <li><a href="#perfil01">Yago</a></li>
+            <li><a href="#perfil02">Eduardo</a></li>
+            <li><a href="#tecnologia">Linguagens</a></li>
+            <li><a href="#contact">Contatos</a></li>
+        </ul>
+    </header>
+    <div class="perfil01" id="perfil01">
+        <div>
+            <div class="rel" >
+                <img class="profile"
+                src="./knight-illustration-on-transparent-background-PNG.webp" 
+                alt="congo">
+            </div>
+        </div>
+        <div>
+            <h1>Yago Pereira</h1>
+            <p>Meu nome é Yago Negrão Pereira, tenho 17 anos, ex estudante da TecPuc e amo fazer programa</p>
+        </div>
+    </div>
+
+    <div class="perfil02" id="perfil02">
+       <div> 
+            <div class="rel">
+                <img class="profile"
+                src="./kisspng-hollow-knight-game-team-cherry-sticker-5ae705b30f0594.5424532715250897150615.webp"
+                alt="Seychelles">
+            </div>
+       </div>
+       <div>
+        <h1>Eduardo Henrique</h1>
+        <p>Tenho 16 anos, também um ex estudante da TecPuc</p>
+    </div>
+    </div>
+    <div class="tecno" id="tecnologia">
+        <div class="tecnobox">
+            <div class="tecnoframe">
+                <img class="tecnoimg" 
+                src="https://vectorified.com/images/html-css-icon-1.png" 
+                alt="HTML">
+            </div>
+
+            <div class="texto">
+                <h2>HTML</h2>
+                <p>HTML (Hypertext Markup Language) é a linguagem padrão para criar páginas da web, fornecendo uma estrutura para organizar conteúdo. Utiliza tags para definir elementos como cabeçalhos, parágrafos, links e imagens. Essas tags são interpretadas pelos navegadores para exibir o conteúdo. Um documento HTML básico inclui tags como `<html>`, `<head>` e `<body>`. HTML é frequentemente combinado com CSS para estilizar páginas e JavaScript para adicionar interatividade. Juntas, essas tecnologias formam a base da web moderna.</p>
+            </div>
+        </div>
+        <div class="tecnobox">
+            <div class="tecnoframe">
+                <img class="tecnoimg" 
+                src="./CSS.webp" 
+                alt="HTML">
+            </div>
+
+            <div class="texto">
+                <h2>CSS</h2>
+                <p>CSS (Cascading Style Sheets) é uma linguagem usada para estilizar páginas da web, controlando o design e a apresentação. Ele define cores, fontes, espaçamento e layout, separando a estrutura do conteúdo. CSS pode ser aplicado diretamente no HTML ou em um arquivo externo, permitindo fácil manutenção e personalização. Com seletores e propriedades, é possível direcionar elementos específicos e aplicar estilos de forma eficiente. Ele é crucial para garantir uma experiência consistente em diferentes dispositivos.</p>
+            </div>
+        </div>
+        <div class="tecnobox">
+            <div class="tecnoframe">
+                <img class="tecnoimg" 
+                src="./JAVASCRIPT.webp" 
+                alt="HTML">
+            </div>
+
+            <div class="texto">
+                <h2>JAVASCRIPT</h2>
+                <p>JavaScript é uma linguagem de programação usada para tornar páginas da web interativas e dinâmicas. Ele permite a manipulação do conteúdo HTML e responde a ações do usuário, como cliques e movimentos do mouse. JavaScript é executado no navegador do usuário, adicionando funcionalidades como validação de formulários, animações e atualizações de página sem recarregamento. Em conjunto com HTML e CSS, forma a base do desenvolvimento front-end na internet.</p>
+            </div>
+        </div>
+    </div>
+    <div class="contact" id="contact">
+        <div class="leftcontact">
+            <h1>Contato</h1>
+            <label for="nome">Nome: </label>
+            <input type="text" id="nome">
+        </div>
+        <div>
+        <div class="rightcontact">
+            <h1>Whatsapp</h1>
+            <div>
+                <label for="mensagem">Mensagem:</label>
+                <textarea class="area" type="text" id="mensagem"></textarea>
+            </div>
+            <div class="conferir">
+                <button onclick="conferirMensagemWhatsApp()">Conferir Dados</button>
+            </div>
+                <div class="zap">
+                    <button onclick="enviar()">Enviar</button>
+                </div>
+                
+        </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>
